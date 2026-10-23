@@ -1,0 +1,24 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+~$*
+*.tmp
+*.swp
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Python environments and caches, if experiments are added later
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
